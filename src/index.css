@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased bg-[#F8F9FA] text-[#1D1D1F];
+  }
+}
